@@ -1,0 +1,167 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("dark.jpg");
+    margin: 0%;;
+    background-size: 100%;
+}
+
+.main {
+    border: black 35px solid;
+    margin: 0%;
+    width: 860px;
+    height: 300px;
+    position: relative;
+    left: 19%;
+    margin-top: 10%;
+}
+
+.first-box {
+    border-top: solid black 2px;
+    width: 500px;
+    height: 300px;
+    background-color: darkcyan;
+}
+
+
+.second-box {
+    width: 360px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+    background-color: darkblue;
+}
+
+.logo {
+    size: 100%;
+}
+
+.heading {
+    margin-top: 0%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.para {
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+.k {
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+.num {
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 0%;
+}
+
+.mili {
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 0%;
+}
+
+.com {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+.tem {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 12%;
+}
+
+.que {
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 9.5%;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url("dark.jpg");
+        background-color: black;
+    }
+
+    .main {
+        width: 95%;
+        border: 0px;
+        position: relative;
+        left: 5%;
+        margin-top: 1%;
+    }
+
+    .first-box {
+        width: 95%;
+        position: relative;
+        top: 300px;
+    }
+
+    .second-box {
+        width: 95%;
+        position: relative;
+        left: 0%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .heading {
+        margin-bottom: 10px;
+    }
+
+    .para {
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    .k {
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+    }
+    
+    .num {
+        margin-top: 0%;
+        margin-left: 12%;
+        margin-bottom: 0%;
+    }
+    
+    .mili {
+        margin-top: 0%;
+        margin-left: 12%;
+        margin-bottom: 0%;
+    }
+    
+    .com {
+        margin-top: 0%;
+        font-size: 10px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .tem {
+        margin-top: 0%;
+        font-size: 10px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .que {
+        margin-top: 0%;
+        font-size: 10px;
+        margin-top: 0%;
+        margin-left: 7.6%;
+    }
+    
+  }
